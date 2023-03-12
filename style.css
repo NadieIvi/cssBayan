@@ -1,0 +1,61 @@
+body {
+  background-color: #f5f5eb;
+  color: black;
+}
+
+.container {
+  max-width: 768px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.accordion {
+  display: inline-block;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 0.01rem solid grey;
+}
+
+.accordion input[name="accordion"] {
+  display: none;
+}
+
+.accordion__body {
+  text-align: center;
+}
+.accordion__header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.accordion__header-name {
+  color: blue;
+  font-weight: 900;
+  margin: 0;
+}
+
+.accordion__header-icon {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.accordion__header-icon::before {
+  content: "\2b";
+}
+
+.accordion__img {
+  max-width: 20rem;
+  width: 100%;
+  max-height: 20rem;
+  object-fit: contain;
+}
