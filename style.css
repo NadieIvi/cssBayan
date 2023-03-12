@@ -45,6 +45,7 @@ h1 {
 }
 
 .accordion__header-name {
+  font-size: 1.5rem;
   color: blue;
   font-weight: 900;
   margin: 0;
@@ -58,7 +59,7 @@ h1 {
 }
 
 .accordion__header-icon {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 900;
   transform: scale(0);
   transition: transform 0.3s;
